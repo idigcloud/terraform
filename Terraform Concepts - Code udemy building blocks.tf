@@ -26,7 +26,7 @@ cluster_identifier      = "${var.CLUSTER_IDENTIFIER}"
 
 engine                  = "aurora-mysql"
 
-engine_version          = "5.7.19"
+engine_version          = "5.8.19"
 
 availability_zones      = ["${data.aws_availability_zones.available.names}"]
 
